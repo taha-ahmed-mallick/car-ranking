@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:wght@600&family=Roboto+Condensed:wght@100..900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+}
+
+*::selection {
+	background-color: yellow;
+	color: black;
+}
+
+body {
+	background: url(./backdrop.png);
+	height: 100vh;
+	width: 100vw;
+	background-size: contain;
+	overflow: hidden;
+}
+
+header {
+	width: 100%;
+	padding: 20px;
+	box-shadow: 0px 9px 20px 1px #7d7d7d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+	user-select: none;
+	-webkit-user-drag: none;
+	-moz-user-select: none;
+}
+
+input {
+	position: absolute;
+	background: transparent;
+	outline: none;
+	border: 0px;
+	border-bottom: 2px solid white;
+	width: 126px;
+	left: 50.5%;
+	transform: translate(-50%, 0%);
+	top: 75px;
+	color: #fff;
+	font-family: "Roboto Condensed", cursive;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+button {
+	background: #2196f3;
+	border: 0;
+	position: absolute;
+	padding: 0px 5px;
+	left: 50%;
+	transform: translate(87px, 0%);
+	top: 80px;
+	color: #fff;
+	cursor: pointer;
+}
+.material-symbols-outlined {
+	font-size: 20px !important;
+}
