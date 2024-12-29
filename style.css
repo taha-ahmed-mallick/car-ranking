@@ -65,3 +65,21 @@ button {
 .material-symbols-outlined {
 	font-size: 20px !important;
 }
+
+section {
+	width: 100%;
+	height: -webkit-fill-available;
+	overflow: auto;
+	user-select: contain;
+	color: #fff;
+	font-family: "Poppins", cursive;
+	font-size: 30px;
+}
+
+li {
+	user-select: all;
+}
+
+li::marker {
+	font-family: "Orbitron", cursive;
+}
