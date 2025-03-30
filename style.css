@@ -68,7 +68,7 @@ button {
 
 section {
 	width: 100%;
-	height: -webkit-fill-available;
+	height: calc(100% - 140px);
 	overflow: auto;
 	user-select: auto;
 	color: #fff;
@@ -87,7 +87,7 @@ li::before {
 
 li > div {
 	display: inline-block;
-	width: 89%;
+	width: calc(100% - 45px);
 }
 
 li > div > div {
@@ -102,4 +102,10 @@ li .material-symbols-outlined {
 
 li .material-symbols-outlined:hover {
 	color: #f44336;
+}
+
+@media (max-width: 600px) {
+	section {
+		height: calc(100% - 200px);
+	}
 }
